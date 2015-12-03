@@ -1,0 +1,25 @@
+#The program has been complied and run on the machine Linprog. 
+
+Type "make" to compile the program.
+
+After you type "make" you will get three executable programs: 
+
+1. complete_linkage, which is the complete linkage method.
+	
+	Run method: ./complete_linkage data.txt
+
+2. llord_clustering, which is the llord method.
+	
+	Run method: ./llord_clustering data.txt
+
+3. hamming_distance, which is the the program to calculate hammming distance.
+	
+	Run method: ./hamming_distance
+
+
+NOTE for calculating the hamming distance:
+Before excuting the hamming distance program. You should run the 
+complete linkage method and llord's method firstly, which will have both standard output and two output files named "out_complete.txt" and "out_llord.txt". 
+The hamming distance  program will read these two files and calculate the hamming distance.
+
+The 'bonus.m' is the matlab source file for bonus. The program should be excuted in matlab.
